@@ -9,3 +9,5 @@ RUN apk add --no-cache python3 && \
     rm -r /root/.cache
 
 RUN pip install awscli
+
+RUN apk add bash
